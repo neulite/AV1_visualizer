@@ -1,0 +1,26 @@
+# AV1 Visualizer Path Configuration Template
+# Copy this file and use it as paths.yaml
+# cp config/paths_template.yaml config/paths.yaml
+
+data:
+  # H5 file (neuron coordinate data)
+  population_h5: "path/to/v1_nodes.h5"
+
+  # Node types CSV file
+  node_types_csv: "data/sample/cortex_node_types.csv"
+
+  # Population data CSV file
+  population_csv: "path/to/v1_population.csv"
+
+  # Spike data directory
+  spike_directory: "path/to/spike/"
+
+tools:
+  # ffmpeg executable path (just "ffmpeg" if it's in the system PATH)
+  ffmpeg_executable: "ffmpeg"
+
+output:
+  # Output directories
+  rasters: "output/rasters/"
+  frames: "output/frames/"
+  videos: "output/videos/"

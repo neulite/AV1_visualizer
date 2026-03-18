@@ -1,0 +1,46 @@
+# Output files
+output/rasters/*.png
+output/frames/*.png
+output/videos/*.mp4
+!output/.gitkeep
+
+# Data files (large)
+*.dat
+*.h5
+data/spike/
+data/population_data/
+data/20250818_res/
+
+# Configuration files (environment-specific)
+config/paths.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
